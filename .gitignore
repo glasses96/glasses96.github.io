@@ -6,3 +6,5 @@ vendor
 Gemfile.lock
 README.md
 .DS_Store
+node_modules/
+package-lock.json
