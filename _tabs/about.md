@@ -17,6 +17,7 @@ Happy Haking[🔵⚪️🔴](http://www.bluewings.kr/)
 
 | Competition | Year | Rank | Team |
 |-------------|------|------|------|
+| Cykor CTF | 2025 | 8th | Fermion |
 | ACDC CTF | 2025 | 29th | 잠깐봄 |
 | Line CTF | 2025 | 6th | FermionAlp |
 | Fiesta CTF | 2025 | 6th | 취약도%20약이다 |
