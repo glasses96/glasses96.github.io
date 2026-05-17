@@ -51,7 +51,7 @@ def run_git_diff(base_sha: str, head_sha: str) -> list[str]:
             "git",
             "diff",
             "--name-only",
-            "--diff-filter=AM",
+            "--diff-filter=AMR",
             base_sha,
             head_sha,
             "--",
