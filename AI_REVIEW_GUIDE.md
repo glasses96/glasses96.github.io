@@ -95,8 +95,14 @@ cleanup_branches.ps1 -Apply
 ```
 
 원격 브랜치는 GitHub에서 PR merge 후 자동 삭제되도록 설정할 수 있다.
-  GitHub repo의 `Settings > General`에서 아래로 스크롤한 뒤 `Pull
-  Requests` 섹션의 `Automatically delete head branches`를 켠다.
+GitHub repo의 `Settings > General`에서 아래로 스크롤한 뒤 `Pull Requests` 섹션의 `Automatically delete head branches`를 켠다.
+
+해당 항목이 보이지 않으면 repo admin 권한이 있는지 확인한다.
+GitHub CLI를 쓰는 경우 아래 명령으로도 설정할 수 있다.
+
+```bash
+gh api repos/glasses96/glasses96.github.io --method PATCH --field delete_branch_on_merge=true
+```
 
 ## AI 리뷰 출력 형식
 
