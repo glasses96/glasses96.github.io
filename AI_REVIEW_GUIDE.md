@@ -36,10 +36,14 @@ gpt-5.5
 AI 리뷰를 받으려면 글마다 새 브랜치를 만들고 Pull Request를 열어야 한다.
 
 ```bash
+git checkout main
+git fetch origin --prune
+git pull --ff-only origin main
+
 git checkout -b post/new-post
 
 git add --all
-git commit -m "Add"
+git commit -m "Add post"
 
 git push -u origin post/new-post
 ```
@@ -65,6 +69,40 @@ git push
 리뷰 반영이 끝나면 GitHub Pull Request 화면에서 `Merge pull request`를 누른다.
 
 merge가 완료되면 기존 GitHub Pages 배포 workflow가 실행되고, 글이 블로그에 발행된다.
+
+## PR merge 후 로컬 main 동기화
+
+Pull Request를 merge하면 GitHub의 `main` 브랜치가 먼저 업데이트된다.
+
+로컬 `main`은 자동으로 업데이트되지 않으므로, 다음 글 작업을 시작하기 전에 반드시 로컬 `main`을 최신 상태로 맞춘다.
+
+```bash
+git checkout main
+git fetch origin --prune
+git pull --ff-only origin main
+```
+
+그 다음 새 글 브랜치를 만든다.
+
+```bash
+git checkout -b post/new-post
+```
+
+이미 로컬에 남아 있는 작업 브랜치를 지우고 싶으면 cleanup 스크립트를 실행한다.
+
+```powershell
+cleanup_branches.ps1 -Apply
+```
+
+원격 브랜치는 GitHub에서 PR merge 후 자동 삭제되도록 설정할 수 있다.
+GitHub repo의 `Settings > General`에서 아래로 스크롤한 뒤 `Pull Requests` 섹션의 `Automatically delete head branches`를 켠다.
+
+해당 항목이 보이지 않으면 repo admin 권한이 있는지 확인한다.
+GitHub CLI를 쓰는 경우 아래 명령으로도 설정할 수 있다.
+
+```bash
+gh api repos/glasses96/glasses96.github.io --method PATCH --field delete_branch_on_merge=true
+```
 
 ## AI 리뷰 출력 형식
 
