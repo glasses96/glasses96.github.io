@@ -30,4 +30,3 @@ Happy Hacking[🔵⚪️🔴](http://www.bluewings.kr/)
 |----------|-------|--------|
 |Naver|NBB-2026-0230| 200$
 |Genian|-| 500$|
-|SDS|-|Goods|
