@@ -22,3 +22,12 @@ Happy Hacking[🔵⚪️🔴](http://www.bluewings.kr/)
 | Line CTF | 2025 | 6th | FermionAlp |
 | Fiesta CTF | 2025 | 6th | 취약도%20약이다 |
 | Fiesta CTF | 2024 | 4th  | 청정횟집 |  
+
+
+# BugBounty
+
+| BugBounty | Num | Reward |
+|----------|-------|--------|
+|Naver|NBB-2026-0230| 200$
+|Genian|-| 500$|
+|SDS|-|Goods|
