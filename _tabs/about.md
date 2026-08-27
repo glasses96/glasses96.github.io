@@ -17,6 +17,8 @@ Happy Hacking[🔵⚪️🔴](http://www.bluewings.kr/)
 
 | Competition | Year | Rank | Team |
 |-------------|------|------|------|
+| CCE 2026 Qual CTF | 2026 | 27th | BB!D |
+| Enki Redteam CTF | 2026 | 49th | 개인 |
 | Cykor CTF | 2025 | 8th | Fermion |
 | ACDC CTF | 2025 | 29th | 잠깐봄 |
 | Line CTF | 2025 | 6th | FermionAlp |
