@@ -17,7 +17,7 @@ Happy Hacking[🔵⚪️🔴](http://www.bluewings.kr/)
 
 | Competition | Year | Rank | Team |
 |-------------|------|------|------|
-| ACDC CTF(Qual) | 2026 | 11th | BB!D | 
+| ACDC CTF(Qual) | 2026 | 11th(본선진출) | BB!D | 
 | Gray Swan Arena(Indirect Prompt Injection) | 2026 | 4th(2500$) | 개인 |
 | Fiesta CTF | 2026 | 장려상(4th)/200만원 | 토큰한도니까잠깐쉴게요 |
 | CCE 2026 Qual CTF | 2026 | 27th | BB!D |
