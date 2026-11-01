@@ -17,7 +17,9 @@ Happy Hacking[🔵⚪️🔴](http://www.bluewings.kr/)
 
 | Competition | Year | Rank | Team |
 |-------------|------|------|------|
-| Fiesta CTF | 2026 | 장려상(4th) | 토큰한도니까잠깐쉴게요 |
+| ACDC CTF(Qual) | 2026 | 11th | BB!D | 
+| Gray Swan Arena(Indirect Prompt Injection) | 2026 | 4th(2500$) | 개인 |
+| Fiesta CTF | 2026 | 장려상(4th)/200만원 | 토큰한도니까잠깐쉴게요 |
 | CCE 2026 Qual CTF | 2026 | 27th | BB!D |
 | Enki Redteam CTF | 2026 | 49th | 개인 |
 | Cykor CTF | 2025 | 8th | Fermion |
@@ -29,7 +31,10 @@ Happy Hacking[🔵⚪️🔴](http://www.bluewings.kr/)
 
 # BugBounty
 
-| BugBounty | Num | Reward |
+| BugBounty | CVE | Reward |
 |----------|-------|--------|
-|Naver|NBB-2026-0230| 200$
-|Genian|-| 500$|
+| Zabbix(HackerOne) | 예정 | 500$ |
+| NASA(BugCrowd) | - | LoR |
+| Vscode | VULN-213098 | Low 취약점 |
+| Naver | NBB-2026-0230| 200$ |
+| Genian |-| 500$ |
